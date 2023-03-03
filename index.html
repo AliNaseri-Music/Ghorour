@@ -4,6 +4,9 @@
 	<title>Download File</title>
 </head>
 <body>
-	<a href="music.mp3" download>Click here to download the file</a>
+	<a href="music.mp3" download="filename.ext" id="downloadLink">Click here to download the file</a>
+	<script>
+		document.getElementById("downloadLink").click();
+	</script>
 </body>
 </html>
