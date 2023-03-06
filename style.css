@@ -1,0 +1,80 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+
+textarea {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  height: 150px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: IRANSans, sans-serif;
+  resize: none;
+  outline: none;
+  text-align: center;
+}
+
+.music-player {
+  margin: 30px auto;
+  text-align: center;
+}
+
+audio {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: IRANSans, sans-serif;
+  border: none;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+a {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;

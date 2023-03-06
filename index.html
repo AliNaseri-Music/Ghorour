@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Streaming Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<img src="https://static-cse.canva.com/blob/1016091/1600w-fxYFTKLArdY.jpg" alt="Music Cover">
+			<h1>Ali Naseri</h1>
+			<h2>Ghoroor</h2>
+			<textarea readonly>
+				Some song lyrics go here.
+			</textarea>
+			<button class="button" onclick="copyText()">کپی متن ترانه</button>
+		</div>
+		<div class="music-player">
+			<audio controls>
+			  <source src="https://alinaseri-music.github.io/Ghoroor/music.mp3" type="audio/mpeg">
+			  Your browser does not support the audio element.
+			</audio>
+			<a href="https://alinaseri-music.github.io/Ghoroor/music.mp3" download>دانلود نسخه تصویری</a>
+			<a href="https://alinaseri-music.github.io/Ghoroor/video.mp4" download>دانلود نسخه صوتی</a>
+		</div>
+	</div>
+	<script>
+		function copyText() {
+			var textarea = document.querySelector('textarea');
+			textarea.select();
+			document.execCommand('copy');
+			alert('متن ترانه با موفقیت کپی شد!');
+		}
+	</script>
+</body>
+</html>
