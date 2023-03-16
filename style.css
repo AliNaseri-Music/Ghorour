@@ -36,7 +36,7 @@ textarea {
   border: 2px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
-  font-family: IRANSans, sans-serif;
+  font-family: IRANSans, Arial, sans-serif;
   resize: none;
   outline: none;
   text-align: center;
@@ -62,7 +62,7 @@ audio {
   text-decoration: none;
   border-radius: 5px;
   font-size: 16px;
-  font-family: IRANSans, sans-serif;
+  font-family: IRANSans, Arial, sans-serif;
   border: none;
 }
 
@@ -103,5 +103,6 @@ a {
     margin: 10px;
     padding: 8px 16px;
     font-size: 14px;
+    font-family: IRANSans, Arial, sans-serif;
   }
 }
